@@ -7,11 +7,17 @@
 	.categories-title {
     	font-size: 1.6rem;
     }
+    .friend-slider > div h5 {
+    	font-size: 23px;
+    	margin: 0;
+	}
+	.bundle-title {
+    	font-size: 26px;
+    }
 }
 @media (max-width: 767px){
 	.header-wrapper .navbar .navbar-brand {
-	    order: 1;
-	    width: 100%;
+	    order: 3;
 	    text-align: center;
 	    margin: 0;
 	}
@@ -95,9 +101,27 @@
     	margin-bottom: 20px;
 	}
 	.navbar-light .navbar-toggler {
-    	font-size: 12px;
+    	font-size: 9px;
+	    padding: 3px;
 	}
 	.form-newsletter p {
     	font-size: 15px;
 	}
+	.left-icons .nav-link, .right-icons .nav-link {
+    	margin: 0 8px;
+	}
+	.navbar-brand img {
+    	max-width: 110px;
+	}
+	.header-icons {
+	    max-height: 16px;
+	}
+}
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
