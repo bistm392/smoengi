@@ -42,7 +42,8 @@ h1, h2, h3{
 	order: 3;
 }
 .navbar-toggler {
-    order: 2;
+    order: 1;
+    background: #ffffff52;
 }
 .header-wrapper .navbar>.container {
 	flex-wrap: wrap;
@@ -70,10 +71,9 @@ header {
 }
 .link-header .nav-link {
     color: #fff !important;
-}
-.link-header .nav-link {
-    color: #fff !important;
-    padding: 10px 30px !important;
+    padding: 10px 25px !important;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 .main-header {
     font-size: 38px;
@@ -375,4 +375,11 @@ footer .social-links .social-link {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.font-weight-bold {
+    font-weight: 700;
+}
+.dropdown-item {
+    text-transform: uppercase;
+    font-size: 14px;
 }

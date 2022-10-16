@@ -22,7 +22,6 @@
 	    margin: 0;
 	}
 	.navbar-light .navbar-toggler {
-	    background: #fff;
 	    font-size: 12px;
 	}
 	.left-icons {
@@ -115,6 +114,12 @@
 	}
 	.header-icons {
 	    max-height: 16px;
+	}
+	.link-header .nav-link {
+    	padding: 15px 15px !important;
+    }
+    .header-wrapper .hero-banner {
+    	background-position: 70% 50px;
 	}
 }
 /* Landscape */
