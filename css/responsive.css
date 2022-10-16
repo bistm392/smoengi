@@ -65,6 +65,15 @@
     .instagram-image {
     	grid-template-columns:1fr 1fr 1fr 1fr;
     }
+    .owl-theme .owl-nav [class*=owl-] {
+	    position: unset;
+	    width: 30px;
+	    transform: unset;
+	    height: 30px;
+	}
+	.owl-theme .owl-nav {
+    	margin-top: 10px;
+	}
 }
 @media (max-width: 576px){
 	.friend-slider > div h5 {
@@ -100,8 +109,8 @@
     	margin-bottom: 20px;
 	}
 	.navbar-light .navbar-toggler {
-    	font-size: 9px;
-	    padding: 3px;
+    	font-size: 13px;
+	    padding: 2px;
 	}
 	.form-newsletter p {
     	font-size: 15px;
@@ -119,7 +128,7 @@
     	padding: 15px 15px !important;
     }
     .header-wrapper .hero-banner {
-    	background-position: 70% 50px;
+    	background-position: 70% 0px;
 	}
 }
 /* Landscape */

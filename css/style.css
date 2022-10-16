@@ -343,7 +343,7 @@ footer {
 }
 .footer-links a {
     color: #D9D9D9;
-    text-decoration: auto;
+    text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;
     text-transform: uppercase;

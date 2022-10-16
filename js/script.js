@@ -18,7 +18,6 @@ $(function() {
 
     600: {
       items: 2,
-      nav: false,
     },
 
     1024: {
@@ -39,7 +38,6 @@ $(function() {
     items: 1,
     loop: true,
     dots:false,
-    nav: false,
   });
 });
 
@@ -63,7 +61,6 @@ $(function() {
 
     600: {
       items: 2,
-      nav: false,
     },
 
     1024: {
