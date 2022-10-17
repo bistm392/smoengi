@@ -530,13 +530,17 @@ footer .social-links .social-link {
     background: hsl(193deg 19% 24% / 75%);
     color: #D9D9D9;
 }
+.bg-golden{
+    background: #FFFFFF;
+    color: #967F45;
+}
 .accordion-button::after {
     border: 1px solid;
     background-size: 88% 85%;
     content: "\f078";
     font-family: 'Font Awesome 6 free';
     font-weight: 900;
-    font-size: 14px;
+    font-size: 13px;
     background-image: none;
     border-radius: 50%;
     text-align: center;
@@ -555,16 +559,27 @@ footer .social-links .social-link {
 .accordion-button {
     background: none;
     color: #D9D9D9;
-    padding: 15px 0;
+    padding: 10px 0;
+    border-bottom: 0.1px solid;
 }
 .accordion-button:not(.collapsed) {
     background: none;
     color: #fff;
+    box-shadow: none;
 }
 .bg-gray .accordion-body {
     color: #32454A;
 }
+.bg-golden .accordion-body {
+    color: #967F45;
+}
+.bg-golden .accordion-button{
+    color: #967F45;
+}
 .accordion-body {
     font-size: 20px;
     line-height: 1.6
+}
+.faq-us-section {
+    padding: 50px 0;
 }

@@ -21,6 +21,12 @@
 	    text-align: center;
 	    margin: 0;
 	}
+	.faq-us-section {
+    	padding: 30px 0;
+	}
+	.section-Values-heading {
+    	margin-bottom: 0;
+	}
 	.navbar-light .navbar-toggler {
 	    font-size: 12px;
 	}
@@ -149,7 +155,9 @@
     .header-wrapper .hero-banner {
     	background-position: 70% 0px;
 	}
-	
+	.accordion-body {
+    	font-size: 16px;
+    }
 }
 /* Landscape */
 @media only screen 
