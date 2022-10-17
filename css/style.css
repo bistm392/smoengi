@@ -446,7 +446,6 @@ footer .social-links .social-link {
 .section-Values-heading {
     font-size: 21px;
     text-transform: uppercase;
-    color: #32454A;
     margin-bottom: 25px;
 }
 .we-carft {
@@ -458,4 +457,114 @@ footer .social-links .social-link {
     font-size: 32px;
     line-height: 1.6;
     font-weight: 300;
+}
+/*contact us*/
+.contact-us-wrapper-card p {
+    font-size: 20px;
+    margin: 0;
+}
+.contact-us-section {
+    padding: 70px 0;
+    background: #FFFFFF;
+}
+.form-contactus > * {
+    border-radius: 0;
+    margin-bottom: 15px;
+    min-height: 47px;
+    position: relative;
+}
+.form-contactus .form-control {
+    background: #D9D9D9;
+}
+.form-button-set button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #967F45;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contact-us-wrapper-text p {
+    font-size: 25px;
+    color: #32454A;
+}
+.contact-us-wrapper-text {
+    padding: 0 30px;
+    border-right: 1px solid #32454A;
+    height: 100%;
+    margin-right: 25px;
+    padding-right: 50px;
+}
+.form-button-set {
+    margin-bottom: 0;
+}
+.contact-us-wrapper-address {
+    color: #32454A;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+.contact-us-wrapper-address a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #32454A;
+    text-decoration: none;
+}
+.contact-us-wrapper-address .social-link {
+    background: #32454A;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.faq-wrapper {
+    border-right: 2px solid #C4CFCC;
+    height: 100%;
+}
+.bg-gray {
+    background: hsl(193deg 19% 24% / 75%);
+    color: #D9D9D9;
+}
+.accordion-button::after {
+    border: 1px solid;
+    background-size: 88% 85%;
+    content: "\f078";
+    font-family: 'Font Awesome 6 free';
+    font-weight: 900;
+    font-size: 14px;
+    background-image: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+.accordion-item {
+    border: none;
+    background: transparent;
+}
+.accordion-item .accordion-collapse {
+    background: #D9D9D9;
+}
+.accordion-button {
+    background: none;
+    color: #D9D9D9;
+    padding: 15px 0;
+}
+.accordion-button:not(.collapsed) {
+    background: none;
+    color: #fff;
+}
+.bg-gray .accordion-body {
+    color: #32454A;
+}
+.accordion-body {
+    font-size: 20px;
+    line-height: 1.6
 }
