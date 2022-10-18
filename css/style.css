@@ -59,9 +59,14 @@ h1, h2, h3{
 	align-items: center;
 }
 header {
-	position: absolute;
-	width: 100%;
-	background: #00000033;
+    position: static;
+    width: 100%;
+    background: linear-gradient(101.35deg, #535655 65%, #32454A 89.15%);
+}
+.homepage header {
+    background: #00000033;
+    position: absolute;
+    width: 100%;
 }
 .header-icons {
 	max-height: 23px;
@@ -396,9 +401,6 @@ footer .social-links .social-link {
     display: flex;
     align-items: center;
 }
-.about-us header {
-    background: linear-gradient(101.35deg, #535655 65%, #32454A 89.15%);
-}
 .about-text-banner {
     color: #32454A;
 }
@@ -430,7 +432,7 @@ footer .social-links .social-link {
 .about-card-text p {
     font-size: 20px;
 }
-.about-wrapper-card.bg-custom {
+.about-wrapper-card{
     background: #D9D9D9;
     padding: 70px;
     margin-top: 50px;
@@ -582,4 +584,43 @@ footer .social-links .social-link {
 }
 .faq-us-section {
     padding: 50px 0;
+}
+/*Product-page-1*/
+.product-wrapper-card {
+    background: hsl(0deg 0% 100% / 75%);
+    padding: 70px;
+    margin-top: 50px;
+}
+.color-golden {
+    color: #967F45;
+}
+.product-wrapper-card p {
+    font-size: 25px;
+    line-height: 2;
+    text-align: left;
+}
+.product-wrapper-card ul li {
+    font-size: 25px;
+    line-height: 2;
+}
+.ingredients-wrap .dropdown {
+    background: #fff;
+    padding: 15px;
+}
+.ingredients-wrap button {
+    gap: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #32454A;
+    border-radius: 0;
+    color: #967F45;
+}
+.dropdown-icon {
+    max-width: 20px;
+}
+.ingredients-wrap .dropdown-toggle::after {
+    flex: auto;
+    max-width: fit-content;
+    margin-left: auto;
 }
