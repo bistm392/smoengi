@@ -14,6 +14,14 @@
 	.bundle-title {
     	font-size: 26px;
     }
+    .link-header .nav-link {
+    	padding: 10px 13px !important;
+    }
+    .product-wrapper-card {
+	    background: hsl(0deg 0% 100% / 75%);
+	    padding: 50px 20px;
+	    margin-top: 30px;
+	}
 }
 @media (max-width: 767px){
 	.header-wrapper .navbar .navbar-brand {
@@ -25,7 +33,7 @@
     	padding: 30px 0;
 	}
 	.section-Values-heading {
-    	margin-bottom: 0;
+    	margin-bottom: 20px;
 	}
 	.navbar-light .navbar-toggler {
 	    font-size: 12px;
@@ -99,6 +107,28 @@
     .contact-us-wrapper-text p {
     	font-size: 20px;
     }
+    .product-wrapper-card p {
+    	font-size: 20px;
+    }
+    .product-wrapper-card ul li {
+    	font-size: 20px;
+    }
+    .bundle-up-items p {
+    	font-size: 14px;
+    }
+    .plus-sign {
+	    max-width: 30px;
+	    right: -21px;
+    }
+    .bundle-up-wrapper {
+    	grid-template-columns: 1fr 1fr;
+    }
+    .bundle-up-wrapper .bundle-up-items:nth-child(3n+3) .plus-sign {
+    	display: block;
+	}
+	.bundle-up-wrapper .bundle-up-items:nth-child(2n+2) .plus-sign {
+    	display: none;
+	}
 }
 @media (max-width: 576px){
 	.friend-slider > div h5 {
@@ -157,7 +187,40 @@
 	}
 	.accordion-body {
     	font-size: 16px;
+    }    
+    .section-Values-heading {
+    	font-size: 20px;
     }
+    .single-product-detais {
+   		padding: 10px 20px 0px;
+	}
+	.single-product-content {
+    	padding: 20px 0px;
+	}
+	.price-wrapper {
+    	grid-template-columns: 1fr;
+    	gap: 15px;
+    }
+    .price-wrapper img {
+    	margin-left: unset;
+	}
+	.how-to-use-wrap > p {
+	    font-size: 20px;
+	    padding: 20px 20px;
+    }
+    .how-to-use-title {
+ 	   padding: 20px 20px;
+    }
+    .testimonils-product-demo {
+    	padding: 40px 30px;
+	}
+	.content-essential h3 {
+	    font-size: 18px;
+	    padding: 10px;
+    }
+    .content-price .btn {
+    	font-size: 13px;
+	}
 }
 /* Landscape */
 @media only screen 
