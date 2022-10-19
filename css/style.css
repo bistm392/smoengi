@@ -750,3 +750,127 @@ footer .social-links .social-link {
     font-weight: 700;
     color: #32454A;
 }
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.primary {
+    max-width: 100%;
+    height: 500px;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+}
+.thumbnail {
+    display: inline-block;
+}
+.thumbnail-image {
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.single-product-detais {
+    background: #ffffffbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 30px 50px 0px;
+}
+
+.product-features-wrap .dropdown {
+    margin: 5px 20px;
+    background: none;
+    padding: 0;
+}
+.product-features-wrap {
+    background: #ffffffbf;
+    padding: 0px 0px 10px;
+    margin-top: 10px;
+}
+.product-features-wrap .ingredients-wrap button {
+    background: none;
+}
+.product-features-wrap .dropdown-menu {
+    transform: translate(0, 38px) !important;
+}
+.breadcurm a {
+    color: #32454A;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 7px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.breadcurm a::after {
+    content: ">>";
+    font-family: cursive;
+    margin-right: 0;
+    padding-left: 10px;
+}
+.single-product-detais .breadcurm span, .single-product-content p {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #967F45;
+}
+.price-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 10px;
+}
+.price-wrapper img {
+    max-width: 50px;
+    margin-left: auto;
+}
+.price-wrapper  .btn-outline-golden {
+    border: 3px solid #967F45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-outline-golden i {
+    font-size: 40px;
+    color: #967F45;
+}
+.single-product-content {
+    padding: 30px 40px;
+}
+
+.price-wrapper .btn.btn-outline-golden {
+    padding: 4px 10px;
+}
+.price-wrapper > * {
+    width: 100%;
+}
+.price-wrapper .btn-dark {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-wrapper .btn.btn-outline-golden {
+    padding: 4px 10px;
+    font-weight: 700;
+    color: #967F45;
+    border-radius: 0;
+}
+.single-product-content p {
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
