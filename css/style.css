@@ -9,6 +9,9 @@ body{
 h1, h2, h3{
 	font-family: 'Shippori Mincho B1', serif;
 }
+.header-fixed header {
+    position: absolute;
+}
 .header-wrapper .hero-banner {
     background-image: url(../image/hero-banner.png);
     background-size: cover;
@@ -17,7 +20,10 @@ h1, h2, h3{
     max-height: 1088px;
     min-height: 530px;
 }
-
+.breadcurm span {
+    text-transform: uppercase;
+    color: #967F45;
+}
 .btn {
     padding: 8px 35px;
     font-size: 15px;
@@ -873,4 +879,80 @@ footer .social-links .social-link {
     letter-spacing: 1px;
     line-height: 1.6;
     margin-bottom: 15px;
+}
+/*Product-2*/
+.bundle-up-pro-2-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.bundle-up-pro-2-wrapper .bundle-up-items:nth-child(2n+2) .plus-sign {
+    display: none;
+}
+.image-model {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.prodcut-3 .essential-image {
+    max-width: 550px;
+    margin: auto;
+}
+.filter-dropdown button {
+    background: #fff;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    margin-left: auto;
+}
+.filter-dropdown .dropdown-toggle::after {
+    background: #404C4A;
+    content: "\f078";
+    border: none;
+    font-family: 'Font Awesome 6 free';
+    font-weight: 700;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 0 20px 20px 0;
+    display: block;
+    margin-left: 10px;
+}
+.filter-dropdown .dropdown-menu {
+    max-width: fit-content;
+    transform: translate(0, 41px) !important;
+}
+.nav-link-product {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+.nav-item-product a {
+    color: #32454A;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+}
+.refer-banenr {
+    display: flex;
+    height: 100%;
+}
+.refer-banenr .brand-benifit-text {
+    display: flex;
+    align-items: center;
+}
+.refer-banenr p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.shop-all-product .product-wrap img {
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
 }

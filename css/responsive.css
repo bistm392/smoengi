@@ -19,7 +19,7 @@
     }
     .product-wrapper-card {
 	    background: hsl(0deg 0% 100% / 75%);
-	    padding: 50px 20px;
+	    padding: 30px 20px;
 	    margin-top: 30px;
 	}
 }
@@ -129,6 +129,18 @@
 	.bundle-up-wrapper .bundle-up-items:nth-child(2n+2) .plus-sign {
     	display: none;
 	}
+	.thumbnail-image {
+    	height: 90px;
+    }	
+    .single-product-detais .breadcurm span, .single-product-content p {
+    	font-size: 16px;
+    }
+    .breadcurm a {
+    	font-size: 16px;
+    }
+    .breadcurm a::after {
+    	padding-left: 5px;
+	}
 }
 @media (max-width: 576px){
 	.friend-slider > div h5 {
@@ -220,6 +232,12 @@
     }
     .content-price .btn {
     	font-size: 13px;
+	}
+	.product-wrapper-card ul li {
+    	font-size: 18px;
+	}
+	.product-wrapper-card p {
+    	font-size: 18px;
 	}
 }
 /* Landscape */
