@@ -113,3 +113,23 @@ $('.thumbnail').on('click', function() {
   clicked.addClass('selected');
   $('.primary').empty().append($img.hide().fadeIn('slow'));
 });
+$('.slider-content').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  fade: false,
+  infinite: false,
+  speed: 1000,
+  asNavFor: '.slider-thumb',
+    arrows: true,
+    prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button">Previous</button>',
+    nextArrow: '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button">Next</button>',
+});
+$('.slider-thumb').slick({
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  asNavFor: '.slider-content',
+  dots: false,
+  centerMode: false,
+  focusOnSelect: true
+});
