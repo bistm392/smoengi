@@ -1005,3 +1005,6 @@ footer .social-links .social-link {
     max-height: 503px;
     object-fit: cover;
 }
+.slider-thumb {
+    margin-top: 20px;
+}
