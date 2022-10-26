@@ -81,7 +81,7 @@ header {
 	padding: 0 !important;
 	margin: 0 15px;
 }
-.link-header .nav-link {
+.link-header .nav-item > .nav-link {
     color: #fff !important;
     padding: 10px 25px !important;
     text-transform: uppercase;
